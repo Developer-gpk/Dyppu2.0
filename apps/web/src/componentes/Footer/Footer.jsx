@@ -15,7 +15,9 @@ export default function Footer(){
                         </p>
                     </div>
                     <div className='logo'>
-                        <Image src={LogoGoplek} />
+                        <a href='https://www.goplek.com/'>
+                            <Image src={LogoGoplek} />
+                        </a>
                     </div>
                 </div>
             </div>
