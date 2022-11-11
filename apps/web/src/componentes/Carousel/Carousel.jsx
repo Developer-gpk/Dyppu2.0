@@ -10,18 +10,20 @@ export default function Carousel(){
             <div className='holder'>
                 <div className='container-fluid'>
                     <div className="row">
-                        <div className="text">
+                        <div className="text" data-aos="fade-right">
                             <h4><Image src={Figura} /> Nuestro proceso de  fabricación de placas  flexográficas</h4>
                             <Image src={Figura2} className="figura" />
                         </div>
                         <div className="carousels">
                             <Swiper
-                            slidesPerView={"auto"}
+                                slidesPerView={3}
+                                slidesPerGroup={3}
                                 centeredSlides={true}
                                 spaceBetween={40}
                                 className="carousel"
                                 modules={[Navigation]}
                                 navigation={true}
+                                loop={true}
                             >
                                 <SwiperSlide>
                                     <div className='tarjeta'>

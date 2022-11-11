@@ -24,7 +24,7 @@ export default function Contacto(){
                         <h4>Escríbenos para cotizar tus placas flexográficas</h4>
                     </div>
                     <div className='row'>
-                        <div className='form'>
+                        <div className='form' data-aos="fade-right">
                             <Formik
                                 initialValues={{
                                     nombre: "",
@@ -113,14 +113,14 @@ export default function Contacto(){
                                 </div>
                             </div>
                         </div>
-                        <div className="imagen">
+                        <div className="imagen" data-aos="fade-left">
                             <div className='img'>
                                 <Image src={Img9} fill />
                             </div>
                             <Image src={Figura3} className="figura3" />
                         </div>
                     </div>
-                    <div className='end'>
+                    <div className='end' data-aos="fade-up">
                         <p>En Dyppu somos especialistas en la fabricación de placas flexográficas de fotopolímero para la impresión flexográfica. Se utilizan para la impresión flexográfica sobre cartón corrugado, impresión flexográfica sobre plástico, impresión flexográfica sobre metal e impresión flexográfica sobre tela. Realizamos pedidos a todo México y ofrecemos asesoramiento personalizado para diseño y preprensa. </p>
                     </div>
                 </div>

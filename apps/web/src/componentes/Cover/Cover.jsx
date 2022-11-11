@@ -18,7 +18,7 @@ export default function Cover(){
                 </Parallax>
             </div>
             <div className='holder'>
-                <div className='container-fluid'>
+                <div className='container-fluid' data-aos="fade-right">
                     <h1>Placas grabadas de fotopolímero para impresión flexográfica</h1>
                     <Link href="/#contacto" legacyBehavior>
                         Cotiza ahora

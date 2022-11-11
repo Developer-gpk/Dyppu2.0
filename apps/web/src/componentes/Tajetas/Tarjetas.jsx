@@ -30,7 +30,7 @@ export default function Tarjetas(){
         <section className='block' id='tarjetas'>
             <div className='holder'>
                 <div className='container-fluid'>
-                    <div className='title'>
+                    <div className='title' data-aos="fade-right">
                         <h2>35 años de experiencia en preprensa y en grabados.</h2>
                     </div>
                     <div className='tarjetas'>

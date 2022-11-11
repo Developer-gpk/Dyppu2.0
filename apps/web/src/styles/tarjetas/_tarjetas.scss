@@ -68,6 +68,11 @@
                             }
                         }
                     }
+                    &:first-child{
+                        .description{
+                            margin-top: 15px;
+                        }
+                    }
                 }
             }
         }

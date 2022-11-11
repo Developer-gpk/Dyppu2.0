@@ -7,12 +7,12 @@ export default function Fabricacion(){
         <section className='block' id='fabricacion'>
             <div className='holder'>
                 <div className='container-fluid'>
-                    <div className="title">
+                    <div className="title" data-aos="fade-right">
                         <h3><Image src={Figura} /><span> Fabricamos placas flexográficas digitales y analógicas</span> para la impresión en distintos materiales:</h3>
                     </div>
                     <div className='imagenes'>
                         <div className='part-1'>
-                            <div className='papel'>
+                            <div className='papel' data-aos="fade-left">
                                 <div className='imagen'>
                                     <Image src={Img5M} fill quality={100} className="movil" />
                                     <Image src={Img5} fill quality={100} className="desk" />
@@ -22,7 +22,7 @@ export default function Fabricacion(){
                                     </div>
                                 </div>
                             </div>
-                            <div className='plastico'>
+                            <div className='plastico' data-aos="fade-right">
                                 <div className='imagen'>
                                     <Image src={Img6} fill quality={100} />
                                     <div className='content'>
@@ -33,7 +33,7 @@ export default function Fabricacion(){
                             </div>
                         </div>
                         <div className='part-2'>
-                            <div className='tela'>
+                            <div className='tela' data-aos="fade-left">
                                 <div className='imagen'>
                                     <Image src={Img7} fill quality={100} />
                                     <div className='content'>
@@ -42,7 +42,7 @@ export default function Fabricacion(){
                                     </div>
                                 </div>
                             </div>
-                            <div className='carton'>
+                            <div className='carton' data-aos="fade-right">
                                 <div className='imagen'>
                                     <Image src={Img8} fill quality={100} className="desk" />
                                     <Image src={Img8M} fill quality={100} className="movil" />
@@ -55,10 +55,10 @@ export default function Fabricacion(){
                         </div>
                     </div>
                     <div className='others'>
-                        <div className='text'>
+                        <div className='text' data-aos="fade-up">
                             <h4>Manejamos medidas que se adaptan a diferentes necesidades</h4>
                         </div>
-                        <div className='tamaño'>
+                        <div className='tamaño' data-aos="fade-up">
                             <div className='icon'>
                                 <Image src={Artboard} />
                             </div>
@@ -67,7 +67,7 @@ export default function Fabricacion(){
                                 <span>150 cm x 105 cm.</span>
                             </div>
                         </div>
-                        <div className='espesor'>
+                        <div className='espesor' data-aos="fade-up">
                             <div className='icon'>
                                 <Image src={StackLine} />
                             </div>

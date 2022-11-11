@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html{
     scroll-behavior: smooth;
 }
 @font-face {
@@ -41,7 +43,6 @@
 
 .outer-wrapper{
     overflow: hidden;
-    scroll-behavior: smooth;
 }
 .whats {
     position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/

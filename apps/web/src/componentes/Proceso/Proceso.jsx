@@ -30,7 +30,7 @@ export default function Proceso(){
                 <div className='container-fluid'>
                     <div className='row'>
                         <div className='tecnologia'>
-                            <div className='content'>
+                            <div className='content' data-aos="fade-left">
                                 <h4>Contamos con <span>tecnología de última generación</span> en el procesado de <span>Fotopolímeros Flexográficos</span></h4>
                             </div>
                         </div>

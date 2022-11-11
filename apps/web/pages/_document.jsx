@@ -3,6 +3,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 const isServer = typeof window === 'undefined'
 const WOW = !isServer ? require('wow.js') : null
 
+
 export default function Document(){
     useEffect(() =>{
         new WOW({

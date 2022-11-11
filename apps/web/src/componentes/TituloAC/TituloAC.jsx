@@ -6,7 +6,7 @@ export default function TituloAC(){
     return(
         <section className='block' id='tituloAC'>
             <div className='holder'>
-                <div className='container-fluid'>
+                <div className='container-fluid' data-aos="fade-left">
                     <h2><Image src={Figura} />Todo comienza con una placa flexográfica</h2>
                 </div>
             </div>

@@ -7,10 +7,10 @@ export default function Clientes(){
         <section className='block' id='clientes'>
             <div className='holder'>
                 <div className='container-fluid'>
-                    <div className='title'>
+                    <div className='title' data-aos="fade-left">
                         <h4><Image src={Figura} /> Algunos de los clientes que han confiado en nosotros</h4>
                     </div>
-                    <div className='row'>
+                    <div className='row' data-aos="fade-up">
                         <div>
                             <Image src={Logo1} />
                         </div>

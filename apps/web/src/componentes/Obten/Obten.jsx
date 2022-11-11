@@ -30,7 +30,7 @@ export default function Obten(){
         <section className='block' id='obten'>
             <div className='holder'>
                 <div className='container-fluid'>
-                    <div className='title'>
+                    <div className='title' data-aos="fade-right">
                         <h3><Image src={Figura} /> Obtén tus placas flexográficas de inmediato</h3>
                     </div>
                     <div className='tarjetas'>

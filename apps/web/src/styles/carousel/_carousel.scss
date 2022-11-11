@@ -19,8 +19,8 @@
                         margin-top: 146px;
                     }
                     .figura{
-                        position: absolute;
-                        left: 22%;
+                        margin-left: 64%;
+                        position: relative;
                     }
                 }
                 .carousels{
@@ -106,6 +106,27 @@
                             }
                             .swiper-wrapper{
                                 height: 100% !important;
+                                .swiper-slide{
+
+                                    &:nth-child(6){
+                                        display: none !important;
+                                    }
+                                    &:nth-child(7){
+                                        display: none !important;
+                                    }
+                                    &:nth-child(8){
+                                        display: none !important;
+                                    }
+                                    &:nth-child(9){
+                                        display: none !important;
+                                    }
+                                    &:nth-child(10){
+                                        display: none !important;
+                                    }
+                                    &:nth-child(11){
+                                        display: none !important;
+                                    }
+                                }
                             }
                             .swiper-button-prev, .swiper-button-next{
                                 display: none;
@@ -131,6 +152,7 @@
                                 }
                             }
                         }
+                        
                     }
                 }
             }
