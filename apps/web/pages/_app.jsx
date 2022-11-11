@@ -10,7 +10,9 @@ import "aos/dist/aos.css";
 
 export default function MyApp({ Component, pageProps }){
     useEffect(() =>{
-        AOS.init();
+        AOS.init({
+            duration: 2000
+        });
     },[])
     return(
         <ParallaxProvider>

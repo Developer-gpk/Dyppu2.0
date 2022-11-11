@@ -15,7 +15,7 @@ export default function Obten(){
                 setFadeOut(false)
             }
         }else{
-            if(fade.getBoundingClientRect().top <= 679){
+            if(fade.getBoundingClientRect().top <= 1073){
                 setFadeOut(true)
             } else{
                 setFadeOut(false)

@@ -15,7 +15,7 @@ export default function Tarjetas(){
                 setFadeOut(false)
             }
         }else{
-            if(fade.getBoundingClientRect().top <= 384){
+            if(fade.getBoundingClientRect().top <= 750){
                 setFadeOut(true)
             } else{
                 setFadeOut(false)
