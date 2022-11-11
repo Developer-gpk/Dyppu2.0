@@ -1,0 +1,48 @@
+.navigation{
+    height: 95px;
+    position: fixed;
+    width: 100%;
+    padding: 0px 0px;
+    background: rgba(24,29,36, 0.2);
+    top: 0;
+    z-index: 9;
+    .holder{
+        max-width: 1300px;
+        width: 100%;
+        margin: 0 auto;
+        .navbar-custom{
+            padding: 0 15px;
+            .logo{
+                float: left;
+                width: 114px;
+                height: 35px;
+                margin-top: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+    &.isScroll{
+        background: #172E52;
+        transition: all .5s ease-in-out;
+    }
+}
+@media (max-width: 767px){
+    .navigation{
+        height: 65px;
+        .holder{
+            .navbar-custom{
+                padding: 0;
+                .logo{
+                    float: none;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 15px;
+                }
+            }
+        }
+        &.isScroll{
+            background: #172E52;
+            transition: all .5s ease-in-out;
+        }
+    }
+}

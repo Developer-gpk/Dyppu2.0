@@ -1,0 +1,42 @@
+#tituloBT{
+    position: relative;
+    padding: 30.5px 0 127px 0;
+    .holder{
+        max-width: 1300px;
+        width: 100%;
+        margin: 0 auto;
+        .container-fluid{
+            max-width: 640px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 15px;
+            text-align: center;
+            h2{
+                font-family: "OpenSans-Bold";
+                font-size: 35px;
+                color: #0DB4E6;
+            }
+        }
+    }
+}
+@media (max-width: 767px){
+    #tituloBT{
+        padding: 31px 0 121px 0;
+        .holder{
+            max-width: 1300px;
+            width: 100%;
+            margin: 0 auto;
+            .container-fluid{
+                h2{
+                    width: 355px;
+                    height: 72px;
+                    font-family: "OpenSans-Bold";
+                    font-size: 28px;
+                    color: #0DB4E6;
+                    margin: 0 auto;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

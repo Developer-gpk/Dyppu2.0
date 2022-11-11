@@ -1,0 +1,120 @@
+#tarjetas{
+    position: relative;
+    padding: 48.5px 0 30.5px 0;
+    .holder{
+        max-width: 1300px;
+        width: 100%;
+        margin: 0 auto;
+        .container-fluid{
+            .title{
+                max-width: 542px;
+                width: 100%;
+                padding: 0 15px;
+                margin: 0 auto;
+                text-align: center;
+                h2{
+                    font-family: "OpenSans-Bold";
+                    font-size: 25px;
+                    color: #172E52;
+                }
+            }
+            .tarjetas{
+                display: flex;
+                margin-top: 52px;
+                justify-content: space-between;
+                padding: 0 15px;
+                .tarjeta{
+                    max-width: 30%;
+                    width: 100%;
+                    .imagen{
+                        width: 100%;
+                        position: relative;
+                        -webkit-box-shadow: 0px 10px 20px -10px rgba(23,46,82,1);
+                        -moz-box-shadow: 0px 10px 20px -10px rgba(23,46,82,1);
+                        box-shadow: 0px 10px 20px -10px rgba(23, 46, 82, 1);
+                        img{
+                            position: relative !important;
+                            display: block;
+                        }
+                    }
+                    .title-card{
+                        margin-top: 34px;
+                        h3{
+                            font-family: "OpenSans-Bold";
+                            font-size: 20px;
+                            color: #0DB4E6;
+                        }
+                    }
+                    .description{
+                        margin-top: 38px;
+                        padding-left: 18px;
+                        position: relative;
+                        &::before{
+                            content: "";
+                            width: 2px;
+                            height: 32.82px;
+                            position: absolute;
+                            margin-left: -18px;
+                            top: 0; // If you want to set a smaller height and center it, change this value
+                            background-color: #0DB4E6;
+                        }
+                        p{
+                            font-family: "OpenSans-Regular";
+                            font-size: 16px;
+                            color: #172E52;
+                            letter-spacing: -0.3px;
+                            span{
+                                font-family: "OpenSans-Bold"; 
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    #tarjetas{
+        padding: 31px 0 30.5px 0;
+        .holder{
+            padding: 0 30px;
+            .container-fluid{
+                .title{
+                    padding: 0;
+                    h2{
+                        font-size: 22px;
+                    }
+                }
+                .tarjetas{
+                    display: block;
+                    padding: 0;
+                    margin-top: 116px;
+                    .tarjeta{
+                        max-width: 100%;
+                        width: 100%;
+                        .title{
+                            h3{
+                                margin-top: 0;
+                                width: 100%;
+                                height: auto;
+                                margin-bottom: 0;
+                            }
+                        }
+                        .description{
+                            margin-top: 30px;
+                            padding-left: 0px;
+                            margin-bottom: 30px;
+                            p{
+                                margin-bottom: 0;
+                            }
+                            &::before{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,139 @@
+#carousel{
+    background: #172E52;
+    padding: 97px 0 95px 0;
+    .holder{
+        max-width: 1300px;
+        width: 100%;
+        margin: 0 auto;
+        .container-fluid{
+            padding: 0 15px;
+            .row{
+                display: flex;
+                .text{
+                    max-width: 30%;
+                    width: 100%;
+                    h4{
+                        font-family: "OpenSans-Bold";
+                        font-size: 35px;
+                        color: #FFFFFF;
+                        margin-top: 146px;
+                    }
+                    .figura{
+                        position: absolute;
+                        left: 22%;
+                    }
+                }
+                .carousels{
+                    max-width: 70%;
+                    width: 100%;
+                    .carousel{
+                        .swiper-slide{
+                            max-width: 326px;
+                            width: 100% !important; 
+                            .tarjeta{
+                                width: 326px !important;
+                                height: 433px;
+                                .imagen{
+                                    width: 100%;
+                                    height: 217px;
+                                    img{
+                                        position: relative !important;
+                                        height: 217px !important;
+                                    }
+                                }
+                                .content{
+                                    height: 216px;
+                                    background: #FFFFFF;
+                                    padding: 62px 30px;
+                                    h5{
+                                        font-family: "OpenSans-Bold";
+                                        font-size: 20px;
+                                        color: #172E52;
+                                    }
+                                    p{
+                                        font-family: "OpenSans-Regular";
+                                        font-size: 16px;
+                                        color: #172E52;
+                                    }
+                                }
+                            }
+                        }
+                        .swiper-wrapper{
+                            height: 490px !important;
+                        }
+                        .swiper-button-prev, .swiper-button-next{
+                            bottom: 1%;
+                            top: auto;
+                        }
+                        .swiper-button-prev{
+                            left: auto;
+                            right: 60px;
+                            &::after{
+                                content: url('../../../../../packages/ui/iconos/arrow-left-s-fill.svg');
+                            }
+                        }
+                        .swiper-button-next{
+                            &::after{
+                                content: url('../../../../../packages/ui/iconos/arrow-rig-s-fill\ .svg');
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    #carousel{
+        padding: 0;
+        .holder{
+            padding: 0 30px;
+            .container-fluid{
+                padding: 0;
+                .row{
+                    display: block;
+                    .text{
+                       display: none;
+                    }
+                    .carousels{
+                        max-width: 100%;
+                        width: 100%;
+                        .carousel{
+                            .swiper-slide{
+                                max-width: 100%;
+                                width: 100%;
+                            }
+                            .swiper-wrapper{
+                                height: 100% !important;
+                            }
+                            .swiper-button-prev, .swiper-button-next{
+                                display: none;
+                            }
+                            
+                        }
+                        .swiper{
+                            display: block;
+                            .swiper-wrapper{
+                                display: block !important;
+                                transition-duration: 0ms !important;
+                                transform: translate3d(0px,0,0) !important;
+                                .tarjeta{
+                                    width: 326px !important;
+                                    height: 433px;
+                                    margin: 50px auto;
+                                    .content{
+                                        height: 195px;
+                                        background: #FFFFFF;
+                                        padding: 17px 23px;
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }    
+}
