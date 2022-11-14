@@ -9,7 +9,6 @@ import Animation from '../src/componentes/Animation/Animation'
 import Obten from '../src/componentes/Obten/Obten'
 import Proceso from '../src/componentes/Proceso/Proceso'
 import Carousel from '../src/componentes/Carousel/Carousel'
-import Clientes from '../src/componentes/Clientes/Clientes'
 import Contacto from '../src/componentes/Contacto/Contacto'
 
 export default function Index(){
@@ -24,7 +23,6 @@ export default function Index(){
       <Obten />
       <Proceso />
       <Carousel />
-      <Clientes />
       <Contacto />
     </Template>
   )
