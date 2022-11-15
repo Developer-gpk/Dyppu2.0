@@ -108,7 +108,7 @@ export default function Contacto(){
                                         <Image src={Mapa} />
                                     </div>
                                     <div className='content'>
-                                        <p>S. de, Heróica Puebla de Zaragoza, 72304, Camino antiguo a Manzanilla 68</p>
+                                        <p>S. de, Heróica Puebla de Zaragoza, 72300, Camino antiguo a Manzanilla 68</p>
                                     </div>
                                 </div>
                             </div>
