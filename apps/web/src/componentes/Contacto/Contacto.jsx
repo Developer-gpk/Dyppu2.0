@@ -36,9 +36,23 @@ export default function Contacto(){
                                     comentarios: ""
                                 }}
                                 validationSchema={schema}
-                                onSubmit={ async (values) =>{
-                                    console.log(values)
-                                }}
+                                onSubmit={async (values, { setSubmitting }) =>{
+                                    try {
+                                      const endpoint = `https://www.goplek.com/mailer/send-mail-v1.php`;
+                                      const res = await fetch(endpoint, {
+                                        method: "POST",
+                                        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                                        body: `data=${JSON.stringify({
+                                          host: "dyppu.com",
+                                          data: values,
+                                        })}`,
+                                      });
+                                      const data = await res.text();
+                                      console.log(data)
+                                    } catch (error) {
+                                      console.log(error)
+                                    }
+                                  }}
                             >
                                 {props =>(
                                     <Form>
