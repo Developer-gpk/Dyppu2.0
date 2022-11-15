@@ -52,7 +52,7 @@ export default function Contacto(){
                                     } catch (error) {
                                       console.log(error)
                                     }
-                                  }}
+                                }}
                             >
                                 {props =>(
                                     <Form>
