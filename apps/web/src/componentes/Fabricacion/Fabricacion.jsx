@@ -8,7 +8,7 @@ export default function Fabricacion(){
             <div className='holder'>
                 <div className='container-fluid'>
                     <div className="title" data-aos="fade-right">
-                        <h3><Image src={Figura} /><span> Fabricamos placas flexográficas digitales y analógicas</span> para la impresión en distintos materiales:</h3>
+                        <h3><Image src={Figura} /><span> Fabricamos placas flexográficas digitales y análogas</span> para la impresión en distintos materiales:</h3>
                     </div>
                     <div className='imagenes'>
                         <div className='part-1'>

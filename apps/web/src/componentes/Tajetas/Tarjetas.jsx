@@ -39,10 +39,10 @@ export default function Tarjetas(){
                                 <Image src={Img2} fill quality={100} alt='' />
                             </div>
                             <div className='title-card'>
-                                <h3>PLACAS FLEXOGRÁFICAS DIGITALES Y ANALÓGICAS</h3>
+                                <h3>PLACAS FLEXOGRÁFICAS DIGITALES Y análogas</h3>
                             </div>
                             <div className='description'>
-                                <p>Somos una empresa dedicada a la producción de <span>placas flexográficas</span> en las dos maneras de fabricarlas: <span>digitales y analógicas,</span> que se utilizan para la <span>técnica de impresión en flexografía.</span></p>
+                                <p>Somos una empresa dedicada a la producción de <span>placas flexográficas</span> en las dos maneras de fabricarlas: <span>digitales y análogas,</span> que se utilizan para la <span>técnica de impresión en flexografía.</span></p>
                             </div>
                         </div>
                         <div className={`wow ${fadeOut ? "animate__animated animate__fadeIn" : ""} tarjeta`} ref={tarjeta} data-wow-delay="0.2s" data-wow-offset="200" style={!fadeOut ? ({"visibility": "hidden", "animationDelay": "0s", "animationName": "none"}) : ({"visibility": "visible", "animationDelay": "0.2s", "animationName": "fadeIn"})}>
