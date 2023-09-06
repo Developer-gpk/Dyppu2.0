@@ -1,4 +1,4 @@
-import LogoDyppu from './iconos/dyppu-logo.png'
+import LogoDyppu from './iconos/dyppu-logo.svg'
 import CoverDesktop from './imagenes/Desktop/Cover-1.jpg'
 import CoverMobile from './imagenes/Mobile/Cover.jpg'
 import Img2 from './imagenes/Desktop/Img-2.jpg'
