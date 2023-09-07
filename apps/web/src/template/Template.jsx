@@ -45,6 +45,7 @@ export default function Template({ children }){
                                                 placas grabadas de fotopolimero'></meta>
                 <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
             </Head>
+            
             <div className="whats d-none d-sm-none d-md-block">
                 <ul>
                     <li className="whatsapp"><a href="https://wa.me/+522221977805" target="_blank" rel="noreferrer" className="icon-whatsapp"></a></li>
@@ -52,6 +53,7 @@ export default function Template({ children }){
                 </ul>
             </div>
             <div className='outer-wrapper'>
+                <h2 class='hidden'>En Argeflex somos especialistas en el grabado de placas de fotopolimero para flexografía.</h2>
                 <Navbar />
                 {children}
                 <Footer />
@@ -65,3 +67,4 @@ export default function Template({ children }){
         </>
     )
 }
+

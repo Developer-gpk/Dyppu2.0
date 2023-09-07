@@ -8,14 +8,14 @@ export default function Fabricacion(){
             <div className='holder'>
                 <div className='container-fluid'>
                     <div className="title" data-aos="fade-right">
-                        <h3><Image src={Figura} /><span> Fabricamos placas flexográficas digitales y análogas</span> para la impresión en distintos materiales:</h3>
+                        <h3><Image src={Figura} alt='Diseño de placas flexográficas'/><span> Fabricamos placas flexográficas digitales y análogas</span> para la impresión en distintos materiales:</h3>
                     </div>
                     <div className='imagenes'>
                         <div className='part-1'>
                             <div className='papel' data-aos="fade-left">
                                 <div className='imagen'>
-                                    <Image src={Img5M} fill quality={100} className="movil" />
-                                    <Image src={Img5} fill quality={100} className="desk" />
+                                    <Image src={Img5M} fill quality={100} className="movil" alt='Diseño de placas flexográficas'/>
+                                    <Image src={Img5} fill quality={100} className="desk" alt='Diseño de placas flexográficas'/>
                                     <div className='content'>
                                         <h4>PAPEL</h4>
                                         <p>Placas flexográficas para impresión en papel</p>
@@ -24,7 +24,7 @@ export default function Fabricacion(){
                             </div>
                             <div className='plastico' data-aos="fade-right">
                                 <div className='imagen'>
-                                    <Image src={Img6} fill quality={100} />
+                                    <Image src={Img6} fill quality={100} alt='Diseño de placas flexográficas'/>
                                     <div className='content'>
                                         <h4>PLÁSTICO</h4>
                                         <p>Placas flexográficas para impresión en bolsas plásticas</p>
@@ -35,7 +35,7 @@ export default function Fabricacion(){
                         <div className='part-2'>
                             <div className='tela' data-aos="fade-left">
                                 <div className='imagen'>
-                                    <Image src={Img7} fill quality={100} />
+                                    <Image src={Img7} fill quality={100} alt='Diseño de placas flexográficas'/>
                                     <div className='content'>
                                         <h4>TELA</h4>
                                         <p>Placas flexográficas para impresión en tela</p>
@@ -44,8 +44,8 @@ export default function Fabricacion(){
                             </div>
                             <div className='carton' data-aos="fade-right">
                                 <div className='imagen'>
-                                    <Image src={Img8} fill quality={100} className="desk" />
-                                    <Image src={Img8M} fill quality={100} className="movil" />
+                                    <Image src={Img8} fill quality={100} className="desk" alt='Diseño de placas flexográficas'/>
+                                    <Image src={Img8M} fill quality={100} className="movil" alt='Diseño de placas flexográficas'/>
                                     <div className='content'>
                                         <h4>CARTÓN</h4>
                                         <p>Placas flexográficas para impresión en cartón</p>
@@ -60,7 +60,7 @@ export default function Fabricacion(){
                         </div>
                         <div className='tamaño' data-aos="fade-up">
                             <div className='icon'>
-                                <Image src={Artboard} />
+                                <Image src={Artboard} alt='Diseño de placas flexográficas'/>
                             </div>
                             <div className='text'>
                                 <h4>Máximo de tamaño:</h4>
@@ -69,7 +69,7 @@ export default function Fabricacion(){
                         </div>
                         <div className='espesor' data-aos="fade-up">
                             <div className='icon'>
-                                <Image src={StackLine} />
+                                <Image src={StackLine} alt='Diseño de placas flexográficas'/>
                             </div>
                             <div className='text'>
                                 <h4>Espesor:</h4>

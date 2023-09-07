@@ -36,7 +36,7 @@ export default function Tarjetas(){
                     <div className='tarjetas'>
                         <div className={`wow ${fadeOut ? "animate__animated animate__fadeIn" : ""} tarjeta`} ref={tarjeta} data-wow-delay="0s" data-wow-offset="200" style={!fadeOut ? ({"visibility": "hidden", "animationDelay": "0s", "animationName": "none"}) : ({"visibility": "visible", "animationDelay": "0s", "animationName": "fadeIn"})}>
                             <div className='imagen'>
-                                <Image src={Img2} fill quality={100} alt='' />
+                                <Image src={Img2} fill quality={100} alt='Diseño de placas flexográficas' />
                             </div>
                             <div className='title-card'>
                                 <h3>PLACAS FLEXOGRÁFICAS DIGITALES Y análogas</h3>
@@ -47,7 +47,7 @@ export default function Tarjetas(){
                         </div>
                         <div className={`wow ${fadeOut ? "animate__animated animate__fadeIn" : ""} tarjeta`} ref={tarjeta} data-wow-delay="0.2s" data-wow-offset="200" style={!fadeOut ? ({"visibility": "hidden", "animationDelay": "0s", "animationName": "none"}) : ({"visibility": "visible", "animationDelay": "0.2s", "animationName": "fadeIn"})}>
                             <div className='imagen'>
-                                <Image src={Img3} fill quality={100} alt='' />
+                                <Image src={Img3} fill quality={100} alt='Diseño de placas flexográficas' />
                             </div>
                             <div className='title-card'>
                                 <h3>SERVICIO DE PREPRENSA</h3>
@@ -58,7 +58,7 @@ export default function Tarjetas(){
                         </div>
                         <div className={`wow ${fadeOut ? "animate__animated animate__fadeIn" : ""} tarjeta`} ref={tarjeta} data-wow-delay="0.4s" data-wow-offset="200" style={!fadeOut ? ({"visibility": "hidden", "animationDelay": "0s", "animationName": "none"}) : ({"visibility": "visible", "animationDelay": "0.4s", "animationName": "fadeIn"})}>
                             <div className='imagen'>
-                                <Image src={Img4} fill quality={100} alt='' />
+                                <Image src={Img4} fill quality={100} alt='Diseño de placas flexográficas' />
                             </div>
                             <div className='title-card'>
                                 <h3>EXPERIENCIA</h3>

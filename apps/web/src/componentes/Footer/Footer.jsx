@@ -16,7 +16,7 @@ export default function Footer(){
                     </div>
                     <div className='logo'>
                         <a href='https://www.goplek.com/'>
-                            <Image src={LogoGoplek} />
+                            <Image src={LogoGoplek} alt='Diseño de placas flexográficas'/>
                         </a>
                     </div>
                 </div>

@@ -31,13 +31,13 @@ export default function Obten(){
             <div className='holder'>
                 <div className='container-fluid'>
                     <div className='title' data-aos="fade-right">
-                        <h3><Image src={Figura} /> Obtén tus placas flexográficas de inmediato</h3>
+                        <h3><Image src={Figura} alt='Diseño de placas flexográficas'/> Obtén tus placas flexográficas de inmediato</h3>
                     </div>
                     <div className='tarjetas'>
                         <div className='placas'>
                             <div className={`tarjeta wow ${fadeOut ? "animate__animated animate__fadeIn" : ""}`} ref={tarjeta} data-wow-delay="0s" data-wow-offset="200" style={!fadeOut ? ({"visibility": "hidden", "animationDelay": "0s", "animationName": "none"}) : ({"visibility": "visible", "animationDelay": "0s", "animationName": "fadeIn"})}>
                                 <div className='icono'>
-                                    <Image src={List} />
+                                    <Image src={List} alt='Diseño de placas flexográficas'/>
                                 </div>
                                 <div className='content'>
                                     <h4>Cuéntanos lo que necesitas</h4>
@@ -46,7 +46,7 @@ export default function Obten(){
                             </div>
                             <div className={`tarjeta wow ${fadeOut ? "animate__animated animate__fadeIn" : ""}`} ref={tarjeta} data-wow-delay="0.2s" data-wow-offset="200" style={!fadeOut ? ({"visibility": "hidden", "animationDelay": "0s", "animationName": "none"}) : ({"visibility": "visible", "animationDelay": "0.2s", "animationName": "fadeIn"})}>
                                 <div className='icono'>
-                                    <Image src={Asesoria} />
+                                    <Image src={Asesoria} alt='Diseño de placas flexográficas'/>
                                 </div>
                                 <div className='content'>
                                     <h4>Asesoramiento y cotización </h4>
@@ -57,7 +57,7 @@ export default function Obten(){
                         <div className='placas'>
                             <div className={`tarjeta wow ${fadeOut ? "animate__animated animate__fadeIn" : ""}`} ref={tarjeta} data-wow-delay="0.4s" data-wow-offset="200" style={!fadeOut ? ({"visibility": "hidden", "animationDelay": "0s", "animationName": "none"}) : ({"visibility": "visible", "animationDelay": "0.4s", "animationName": "fadeIn"})}>
                                 <div className='icono'>
-                                    <Image src={Elaboracion} />
+                                    <Image src={Elaboracion} alt='Diseño de placas flexográficas'/>
                                 </div>
                                 <div className='content'>
                                     <h4>Elaboración de diseño y preprensa</h4>
@@ -66,7 +66,7 @@ export default function Obten(){
                             </div>
                             <div className={`tarjeta wow ${fadeOut ? "animate__animated animate__fadeIn" : ""}`} ref={tarjeta} data-wow-delay="0.6s" data-wow-offset="200" style={!fadeOut ? ({"visibility": "hidden", "animationDelay": "0s", "animationName": "none"}) : ({"visibility": "visible", "animationDelay": "0.6s", "animationName": "fadeIn"})}>
                                 <div className='icono'>
-                                    <Image src={Entrega} />
+                                    <Image src={Entrega} alt='Diseño de placas flexográficas'/>
                                 </div>
                                 <div className='content'>
                                     <h4>Entrega</h4>

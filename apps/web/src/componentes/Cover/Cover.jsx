@@ -9,12 +9,12 @@ export default function Cover(){
         <section className='block' id='cover'>
             <div className='cover-desk'>
                 <Parallax>
-                    <Image src={CoverDesktop} fill priority alt='' quality={100} sizes="100vw" loading='eager' />
+                    <Image src={CoverDesktop} fill priority alt='Diseño de placas flexográficas' quality={100} sizes="100vw" loading='eager' />
                 </Parallax>
             </div>
             <div className='cover-mobile'>
                 <Parallax>
-                    <Image src={CoverMobile} fill priority alt='' quality={100} sizes="100vw" loading='eager' />
+                    <Image src={CoverMobile} fill priority alt='Diseño de placas flexográficas' quality={100} sizes="100vw" loading='eager' />
                 </Parallax>
             </div>
             <div className='holder'>

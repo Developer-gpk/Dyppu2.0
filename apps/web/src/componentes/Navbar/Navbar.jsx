@@ -30,7 +30,7 @@ export default function Navbar(){
                     <div className='logo' onClick={toTop}>
                         
                             <button onClick={toTop}>
-                                <Image src={LogoDyppu} />
+                                <Image src={LogoDyppu} alt='Diseño de placas flexográficas'/>
                             </button>
                         
                     </div>

@@ -16,7 +16,7 @@ export default function Contacto(){
     return(
         <section className='block' id='contacto'>
             <div className='cover'>
-                <Image src={Img10} fill />
+                <Image src={Img10} fill alt='Diseño de placas flexográficas'/>
             </div>
             <div className='holder'>
                 <div className='container-fluid'>
@@ -110,7 +110,7 @@ export default function Contacto(){
                             <div className='more'>
                                 <div className='horario'>
                                     <div className='icono'>
-                                        <Image src={Reloj} />
+                                        <Image src={Reloj} alt='Diseño de placas flexográficas'/>
                                     </div>
                                     <div className='content'>
                                         <h6>Horario de atención:</h6>
@@ -119,7 +119,7 @@ export default function Contacto(){
                                 </div>
                                 <div className="direccion">
                                     <div className='icono'>
-                                        <Image src={Mapa} />
+                                        <Image src={Mapa} alt='Diseño de placas flexográficas'/>
                                     </div>
                                     <div className='content'>
                                         <p>S. de, Heróica Puebla de Zaragoza, 72300, Camino antiguo a Manzanilla 68</p>
@@ -129,13 +129,13 @@ export default function Contacto(){
                         </div>
                         <div className="imagen" data-aos="fade-left">
                             <div className='img'>
-                                <Image src={Img9} fill />
+                                <Image src={Img9} fill alt='Diseño de placas flexográficas'/>
                             </div>
-                            <Image src={Figura3} className="figura3" />
+                            <Image src={Figura3} className="figura3" alt='Diseño de placas flexográficas'/>
                         </div>
                     </div>
                     <div className='end' data-aos="fade-up">
-                        <p><h2>En Argeflex somos especialistas en la fabricación de placas flexográficas de fotopolímero para la impresión flexográfica.</h2> Se utilizan para la impresión flexográfica sobre cartón corrugado, impresión flexográfica sobre plástico, impresión flexográfica sobre metal e impresión flexográfica sobre tela. Realizamos pedidos a todo México y ofrecemos asesoramiento personalizado para diseño y preprensa. </p>
+                        <p>En Argeflex somos especialistas en la fabricación de placas flexográficas de fotopolímero para la impresión flexográfica. Se utilizan para la impresión flexográfica sobre cartón corrugado, impresión flexográfica sobre plástico, impresión flexográfica sobre metal e impresión flexográfica sobre tela. Realizamos pedidos a todo México y ofrecemos asesoramiento personalizado para diseño y preprensa. </p>
                     </div>
                 </div>
             </div>
