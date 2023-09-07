@@ -8,7 +8,8 @@ export default function Template({ children }){
     return(
         <>
             <Head>
-                <title>Dyppu</title>
+                <title>Argeflex- Placas de fotopolímero para impresión flexográfica</title>
+                <meta name="description" content='En Dyppu somos especialistas en impresión de placas flexográficas de fotopolímero para la impresión flexográfica.'></meta>
                 <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
             </Head>
             <div className="whats d-none d-sm-none d-md-block">
