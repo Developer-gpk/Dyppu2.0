@@ -43,7 +43,7 @@ export default function Contacto(){
                                         method: "POST",
                                         headers: { "Content-Type": "application/x-www-form-urlencoded" },
                                         body: `data=${JSON.stringify({
-                                          host: "dyppu.com",
+                                          host: "argeflex.com.mx",
                                           data: values,
                                         })}`,
                                       });
