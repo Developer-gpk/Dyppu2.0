@@ -53,7 +53,6 @@ export default function Template({ children }){
                 </ul>
             </div>
             <div className='outer-wrapper'>
-                <h2 class='hidden'>En Argeflex somos especialistas en el grabado de placas de fotopolimero para flexografía.</h2>
                 <Navbar />
                 {children}
                 <Footer />
