@@ -9,7 +9,7 @@ export default function Footer(){
                 <div className='container-fluid'>
                     <div className='text'>
                         <p>
-                            Dyppu 2022 <br />
+                            Argeflex 2022 <br />
                             Todos los derechos reservados. <br />
                             Aviso de Privacidad
                         </p>

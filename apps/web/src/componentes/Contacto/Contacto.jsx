@@ -135,7 +135,7 @@ export default function Contacto(){
                         </div>
                     </div>
                     <div className='end' data-aos="fade-up">
-                        <p>En Dyppu somos especialistas en la fabricación de placas flexográficas de fotopolímero para la impresión flexográfica. Se utilizan para la impresión flexográfica sobre cartón corrugado, impresión flexográfica sobre plástico, impresión flexográfica sobre metal e impresión flexográfica sobre tela. Realizamos pedidos a todo México y ofrecemos asesoramiento personalizado para diseño y preprensa. </p>
+                        <p>En Argeflex somos especialistas en la fabricación de placas flexográficas de fotopolímero para la impresión flexográfica. Se utilizan para la impresión flexográfica sobre cartón corrugado, impresión flexográfica sobre plástico, impresión flexográfica sobre metal e impresión flexográfica sobre tela. Realizamos pedidos a todo México y ofrecemos asesoramiento personalizado para diseño y preprensa. </p>
                     </div>
                 </div>
             </div>
