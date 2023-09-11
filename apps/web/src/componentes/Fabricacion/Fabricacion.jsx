@@ -73,7 +73,7 @@ export default function Fabricacion(){
                             </div>
                             <div className='text'>
                                 <h4>Espesor:</h4>
-                                <span>45 cm, 67 cm, 100 cm, 105 cm, 112 cm, 125 cm, 150 cm, 155 cm, 185 cm y 250 cm.</span>
+                                <span>".045", ".067", ".100", ".112", ".155" cm, y ".250".</span>
                             </div>
                         </div>
                     </div>
