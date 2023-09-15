@@ -41,9 +41,16 @@ html{
 @import './contacto/contacto';
 @import './footer/footer';
 
+@import './elements/states-contact';
+
 .outer-wrapper{
     overflow: hidden;
 }
+
+.hidden {
+    display: none !important;
+}
+
 .whats {
     position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
     right: 0; /* Establecemos la barra en la izquierda */
