@@ -106,38 +106,38 @@ export default function Template({ children }){
                     gtag('config', 'AW-11333563278');
                 `}
             </Script>
+            <Script>
+                {`
+                    gtag('event', 'conversion', {'send_to':'AW-11333563278/ovJ8CLfkkuEYEI7noZwq'});
+                `}
+            </Script>
+            <Script>
+                {`
+                    gtag('config', 'AW-11333563278/9-p_CPOOk-EYEI7noZwq', { 'phone_conversion_number': '222 424 4646' }); 
+                `}
+            </Script>
+            <Script>
+                {`
+                    function gtag_report_conversion(url) {
+                        var callback = function () {
+                            if (typeof(url) != 'undefined') {
+                                window.location = url;
+                            }
+                        };
+                        gtag('event', 'conversion', {
+                            'send_to': 'AW-11333563278/_gyHCN_ZjeEYEI7noZwq',
+                            'event_callback': callback
+                        });
+                        return false;
+                    }
+                `}
+            </Script>
 
             <Head>
                 <title>Argeflex- Placas de fotopolímero para impresión flexográfica</title>
                 <meta name="description" content='En Dyppu somos especialistas en impresión de placas flexográficas de fotopolímero para la impresión flexográfica.'></meta>
                 <meta name="keywords" content='Especialistas en fabricación de placas flexográficas, placas flexograficas, placas para flexografia, placas de fotopolimero para flexografía grabados para flexografia, grabados flexográficos, grabados flexográficos digitales y análogos impresión de fotopolímeros flexográficos fotopolímeros flexográficos, grabados para flexografia, planchas de flexografía, CTP Flexo, imagenes de flexografia, preprensa flexo, pre prensa flexografica, placas de impresion flexografica, placas de polímero para flexografía, placas de impresion flexografica, placas de polímero para flexografía plancha de impresión flexográfica, sellos flexográficos, placas flexograficas, planchas para flexografía, placas cyrel analógica, placas cyrel digital, placas digitales cyrel, impresión de cyrel, grabados en cyrel, placas de cyrel impresas, preprensa cyrel, Impresión flexográfica, Diseño de placas flexográficas, placas de fotopolímero, cyrel flexografia, placas de fotopolímero, Grabados de Placas Planchas o Cyreles clisés en fotopolímero, placas grabadas de fotopolimero'></meta>
                 <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
-                <Script>
-                    {`
-                        gtag('event', 'conversion', {'send_to':'AW-11333563278/ovJ8CLfkkuEYEI7noZwq'});
-                    `}
-                </Script>
-                <Script>
-                    {`
-                        gtag('config', 'AW-11333563278/9-p_CPOOk-EYEI7noZwq', { 'phone_conversion_number': '222 424 4646' }); 
-                    `}
-                </Script>
-                <Script>
-                    {`
-                        function gtag_report_conversion(url) {
-                            var callback = function () {
-                                if (typeof(url) != 'undefined') {
-                                    window.location = url;
-                                }
-                            };
-                            gtag('event', 'conversion', {
-                                'send_to': 'AW-11333563278/_gyHCN_ZjeEYEI7noZwq',
-                                'event_callback': callback
-                            });
-                            return false;
-                        }
-                    `}
-                </Script>
             </Head>
             
             <div className="whats d-none d-sm-none d-md-block">
