@@ -106,17 +106,17 @@ export default function Template({ children }){
                     gtag('config', 'AW-11333563278');
                 `}
             </Script>
-            <Script>
+            <Script id='whatsapp-conversion'>
                 {`
                     gtag('event', 'conversion', {'send_to':'AW-11333563278/ovJ8CLfkkuEYEI7noZwq'});
                 `}
             </Script>
-            <Script>
+            <Script id='phone-conversion'>
                 {`
                     gtag('config', 'AW-11333563278/9-p_CPOOk-EYEI7noZwq', { 'phone_conversion_number': '222 424 4646' }); 
                 `}
             </Script>
-            <Script>
+            <Script id='analytics-conversion'>
                 {`
                     function gtag_report_conversion(url) {
                         var callback = function () {
