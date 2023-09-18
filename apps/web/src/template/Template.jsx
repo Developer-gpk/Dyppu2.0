@@ -107,12 +107,12 @@ export default function Template({ children }){
                     gtag('config', 'AW-11333563278');
                 `}
             </Script>
-            <Script strategy="lazyOnload">
+            <Script strategy="lazyOnload" id='form-conversion'>
                 {`
                     gtag('event', 'conversion', {'send_to':'AW-11333563278/ovJ8CLfkkuEYEI7noZwq'});
                 `}
             </Script>
-            <Script strategy="lazyOnload">
+            <Script strategy="lazyOnload" id='phone-conversion'>
                 {`
                     gtag('config', 'AW-11333563278/9-p_CPOOk-EYEI7noZwq', { 'phone_conversion_number': '222 424 4646' }); 
                 `}
