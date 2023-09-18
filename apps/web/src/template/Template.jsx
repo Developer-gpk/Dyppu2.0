@@ -79,6 +79,7 @@ export default function Template({ children }){
 
             // Send to Google Analytics.
             gtag('event', category, object);
+            gtag_report_conversion('https://argeflex.com.mx/');
 
             // Print in console.
             if ("console" in window) {
@@ -106,22 +107,22 @@ export default function Template({ children }){
                     gtag('config', 'AW-11333563278');
                 `}
             </Script>
-            <Script id='whatsapp-conversion'>
+            <Script strategy="lazyOnload">
                 {`
                     gtag('event', 'conversion', {'send_to':'AW-11333563278/ovJ8CLfkkuEYEI7noZwq'});
                 `}
             </Script>
-            <Script id='phone-conversion'>
+            <Script strategy="lazyOnload">
                 {`
                     gtag('config', 'AW-11333563278/9-p_CPOOk-EYEI7noZwq', { 'phone_conversion_number': '222 424 4646' }); 
                 `}
             </Script>
-            <Script id='analytics-conversion'>
+            <Script id='analytics-conversion' strategy="lazyOnload">
                 {`
                     function gtag_report_conversion(url) {
                         var callback = function () {
                             if (typeof(url) != 'undefined') {
-                                window.location = url;
+                                console.log(url)
                             }
                         };
                         gtag('event', 'conversion', {
@@ -142,7 +143,7 @@ export default function Template({ children }){
             
             <div className="whats d-none d-sm-none d-md-block">
                 <ul>
-                    <li className="whatsapp"><a href="https://wa.me/+522221977805" target="_blank" rel="noreferrer" className="icon-whatsapp" onClick={gaCtaWhatsapp}></a></li>
+                    <li className="whatsapp"><a href="https://wa.link/gc3b72" target="_blank" rel="noreferrer" className="icon-whatsapp" onClick={gaCtaWhatsapp}></a></li>
                     <li className="phone"><a href="tel:+52(222)4244646" target="_blank" rel="noreferrer" className="icon-number" onClick={gaCtaPhone}></a></li>
                 </ul>
             </div>
