@@ -8,6 +8,8 @@ import Script from 'next/script'
 
 export default function Template({ children }){
 
+    const { pathname } = useRouter();
+
     const gaCta = () => {
         let category = 'Cotizar ahora',
             action = 'Cotizar ahora',
@@ -93,8 +95,6 @@ export default function Template({ children }){
         }
     }
 
-    const { pathname } = useRouter();
-
     return(
         <>
             <Script id='analytics-cdn' strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=AW-11333563278`} />
@@ -107,11 +107,17 @@ export default function Template({ children }){
                     gtag('config', 'AW-11333563278');
                 `}
             </Script>
-            <Script strategy="lazyOnload" id='form-conversion'>
-                {`
-                    gtag('event', 'conversion', {'send_to':'AW-11333563278/ovJ8CLfkkuEYEI7noZwq'});
-                `}
-            </Script>
+            {
+                (pathname === '/gracias')
+                    ?
+                        <Script strategy="lazyOnload" id='form-conversion'>
+                            {`
+                                gtag('event', 'conversion', {'send_to':'AW-11333563278/ovJ8CLfkkuEYEI7noZwq'});
+                            `}
+                        </Script>
+                    :
+                        null
+            }
             <Script strategy="lazyOnload" id='phone-conversion'>
                 {`
                     gtag('config', 'AW-11333563278/9-p_CPOOk-EYEI7noZwq', { 'phone_conversion_number': '222 424 4646' }); 
