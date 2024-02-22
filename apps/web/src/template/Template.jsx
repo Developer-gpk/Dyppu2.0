@@ -149,8 +149,8 @@ export default function Template({ children }){
             
             <div className="whats d-none d-sm-none d-md-block">
                 <ul>
-                    <li className="whatsapp"><a href="https://wa.link/gc3b72" target="_blank" rel="noreferrer" className="icon-whatsapp" onClick={gaCtaWhatsapp}></a></li>
-                    <li className="phone"><a href="tel:+52(222)4244646" target="_blank" rel="noreferrer" className="icon-number" onClick={gaCtaPhone}></a></li>
+                    <li className="whatsapp"><a href="https://wa.link/lh8aoq" target="_blank" rel="noreferrer" className="icon-whatsapp" onClick={gaCtaWhatsapp}></a></li>
+                    <li className="phone"><a href="tel:+522214098961" target="_blank" rel="noreferrer" className="icon-number" onClick={gaCtaPhone}></a></li>
                 </ul>
             </div>
             <div className='outer-wrapper'>
