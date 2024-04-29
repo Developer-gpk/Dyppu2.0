@@ -39,7 +39,7 @@ export default function Tarjetas(){
                                 <Image src={Img2} fill quality={100} alt='Diseño de placas flexográficas' />
                             </div>
                             <div className='title-card'>
-                                <h3>PLACAS FLEXOGRÁFICAS DIGITALES Y análogas</h3>
+                                <h3>PLACAS FLEXOGRÁFICAS DIGITALES Y ANÁLOGAS</h3>
                             </div>
                             <div className='description'>
                                 <p>Somos una empresa dedicada a la producción de <span>placas flexográficas</span> en las dos maneras de fabricarlas: <span>digitales y análogas,</span> que se utilizan para la <span>técnica de impresión en flexografía.</span></p>
