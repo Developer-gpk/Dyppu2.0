@@ -18,7 +18,7 @@ export default function Index(){
       <TituloAC />
       <Tarjetas />
       <TituloBT />
-      <Fabricacion />
+
       <Animation />
       <Obten />
       <Proceso />
