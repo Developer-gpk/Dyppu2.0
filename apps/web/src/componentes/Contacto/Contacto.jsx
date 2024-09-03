@@ -186,7 +186,7 @@ export default function Contacto(){
                                         <Image src={Mapa} alt='Diseño de placas flexográficas'/>
                                     </div>
                                     <div className='content'>
-                                        <p>S. de, Heróica Puebla de Zaragoza, 72300, Camino antiguo a Manzanilla 68</p>
+                                        <p>Antiguo Camino a Manzanilla #68, Col. Joaquin Colombres, Puebla, Pue.</p>
                                     </div>
                                 </div>
                             </div>
