@@ -48,7 +48,7 @@ export default function Cover(){
             </div>
             <div className='holder'>
                 <div className='container-fluid' data-aos="fade-right">
-                    <h1>Placas grabadas de fotopolímero para impresión flexográfica</h1>
+                    <h1>Placas flexográficas y fotopolímeros grabados</h1>
                     <h2 className='hidden'>En Argeflex somos especialistas en el grabado de placas de fotopolimero para flexografía.</h2>
                     <Link href="/#contacto" onClick={gaCta}>
                         Cotiza ahora
