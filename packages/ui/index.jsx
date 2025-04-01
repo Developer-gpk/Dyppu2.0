@@ -25,6 +25,7 @@ import Logo3 from './iconos/arena.svg'
 import Img9 from './imagenes/Desktop/Img-9.jpg'
 import Reloj from './iconos/reloj.svg'
 import Mapa from './iconos/mapa.svg'
+import Contacto from './iconos/contacto.svg'
 import LogoGoplek from './iconos/goplek-footer.svg'
 import Figura from './iconos/figura.svg'
 import Figura2 from './iconos/figura-2.svg'
@@ -61,6 +62,7 @@ export {
     Img9,
     Reloj,
     Mapa,
+    Contacto,
     LogoGoplek,
     Figura,
     Figura2,
