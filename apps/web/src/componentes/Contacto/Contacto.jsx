@@ -197,19 +197,10 @@ export default function Contacto(){
                                     <div className='content'>
                                         <p>Contacto:</p>
                                         <p>ventas@argeflex.com.mx</p>
-                                    </div>
-                                </div>
-
-                                <div className="telefono">
-                                    <div className='icono'>
-                                        <Image src={Mapa} alt='Diseño de placas flexográficas'/>
-                                    </div>
-                                    <div className='content'>
                                         <p>222 197 7805</p>
                                         <p>222 424 4646</p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                         <div className="imagen" data-aos="fade-left">
