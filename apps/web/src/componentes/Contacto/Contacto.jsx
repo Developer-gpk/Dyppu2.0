@@ -189,6 +189,15 @@ export default function Contacto(){
                                         <p>Antiguo Camino a Manzanilla #68, Col. Joaquin Colombres, Puebla, Pue.</p>
                                     </div>
                                 </div>
+
+                                <div className="direccion">
+                                    <div className='content'>
+                                        <p>Contacto:</p>
+                                        <p>ventas@argeflex.com.mx</p>
+                                        <p>222 197 7805</p>
+                                        <p>222 424 4646</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div className="imagen" data-aos="fade-left">
