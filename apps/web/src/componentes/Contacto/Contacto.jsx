@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import { Formik, Form, Field } from 'formik'
 import * as Yup from 'yup'
-import { Img9, Reloj, Mapa, Figura3, Img10, Contacto } from 'ui'
+import { Img9, Reloj, Mapa, Figura3, Img10, InfoContacto } from 'ui'
 
 export default function Contacto(){
 
@@ -192,7 +192,7 @@ export default function Contacto(){
 
                                 <div className="correo">
                                     <div className='icono'>
-                                        <Image src={Contacto} alt='Diseño de placas flexográficas'/>
+                                        <Image src={InfoContacto} alt='Diseño de placas flexográficas'/>
                                     </div>
                                     <div className='content'>
                                         <p>Contacto:</p>
