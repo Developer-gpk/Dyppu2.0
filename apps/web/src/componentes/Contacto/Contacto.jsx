@@ -191,6 +191,9 @@ export default function Contacto(){
                                 </div>
 
                                 <div className="direccion">
+                                <div className='icono'>
+                                        
+                                    </div>
                                     <div className='content'>
                                         <p>Contacto:</p>
                                         <p>ventas@argeflex.com.mx</p>
