@@ -64,7 +64,7 @@ export default function Tarjetas(){
                                 <h3>EXPERIENCIA</h3>
                             </div>
                             <div className='description'>
-                                <p>Contamos con una amplia <span>lista de clientes</span> que nos han brindado su <span>confianza a lo largo de más de 35 años.</span></p>
+                                <p>Contamos con una amplia lista de clientes que nos han brindado su confianza para la impresión de <span>placas flexográficas</span> a lo largo de más de 35 años.</p>
                             </div>
                         </div>
                     </div>
