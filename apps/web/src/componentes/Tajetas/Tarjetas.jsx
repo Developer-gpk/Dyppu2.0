@@ -53,7 +53,7 @@ export default function Tarjetas(){
                                 <h3>SERVICIO DE PREPRENSA</h3>
                             </div>
                             <div className='description'>
-                                <p><span>Brindamos asesoramiento personalizado</span> para asegurar que el <span>diseño de las placas</span> cuente con características específicas para <span>impresión</span> y lograr un mejor resultado.</p>
+                                <p>Brindamos <span>asesoramiento personalizado</span> para asegurar que el diseño de las <span>placas flexográficas</span> cuente con características específicas para impresión y lograr un mejor resultado.</p>
                             </div>
                         </div>
                         <div className={`wow ${fadeOut ? "animate__animated animate__fadeIn" : ""} tarjeta`} ref={tarjeta} data-wow-delay="0.4s" data-wow-offset="200" style={!fadeOut ? ({"visibility": "hidden", "animationDelay": "0s", "animationName": "none"}) : ({"visibility": "visible", "animationDelay": "0.4s", "animationName": "fadeIn"})}>
