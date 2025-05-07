@@ -17,9 +17,7 @@ export default function Carousel(){
                         <div className="carousels">
                             <Swiper
                                 slidesPerView={3}
-                                slidesPerGroup={3}
-                                centeredSlides={true}
-                                spaceBetween={40}
+                                spaceBetween={30}
                                 className="carousel"
                                 modules={[Navigation]}
                                 navigation={true}
