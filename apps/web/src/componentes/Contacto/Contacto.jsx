@@ -198,7 +198,7 @@ export default function Contacto(){
                                         <p>Contacto:</p>
                                         <p>ventas@argeflex.com.mx</p>
                                         <p>222 197 7805</p>
-                                        <p>222 424 4646</p>
+                                        <p>222 531 4722</p>
                                     </div>
                                 </div>
                             </div>
