@@ -43,7 +43,7 @@ export default function Animation(){
             <div className="holder">
                 <div className="container-fluid">
                     <div className='title' data-aos="fade-left">
-                        <h4><Image alt='Diseño de placas flexográficas' src={Figura}/> Utilizar grabados flexográficos para la impresión de etiquetas y empaques permite:</h4>
+                        <h4><Image unoptimized alt='Diseño de placas flexográficas' src={Figura}/> Utilizar grabados flexográficos para la impresión de etiquetas y empaques permite:</h4>
                     </div>
                     <div className='row'>
                         <div className='content'>

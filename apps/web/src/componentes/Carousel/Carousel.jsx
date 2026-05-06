@@ -11,8 +11,8 @@ export default function Carousel(){
                 <div className='container-fluid'>
                     <div className="row">
                         <div className="text" data-aos="fade-right">
-                            <h4><Image src={Figura} alt='Diseño de placas flexográficas'/> Nuestro proceso de  fabricación de placas  flexográficas</h4>
-                            <Image src={Figura2} className="figura" alt='Diseño de placas flexográficas'/>
+                            <h4><Image unoptimized src={Figura} alt='Diseño de placas flexográficas'/> Nuestro proceso de  fabricación de placas  flexográficas</h4>
+                            <Image unoptimized src={Figura2} className="figura" alt='Diseño de placas flexográficas'/>
                         </div>
                         <div className="carousels">
                             <Swiper
@@ -26,7 +26,7 @@ export default function Carousel(){
                                 <SwiperSlide>
                                     <div className='tarjeta'>
                                         <div className='imagen' >
-                                            <Image src={Img11} fill alt='Diseño de placas flexográficas'/>
+                                            <Image unoptimized src={Img11} fill alt='Diseño de placas flexográficas'/>
                                         </div>
                                         <div className='content'>
                                             <h5>Preprensa</h5><br />
@@ -37,7 +37,7 @@ export default function Carousel(){
                                 <SwiperSlide>
                                     <div className='tarjeta'>
                                         <div className='imagen' >
-                                            <Image src={Img12} fill alt='Diseño de placas flexográficas'/>
+                                            <Image unoptimized src={Img12} fill alt='Diseño de placas flexográficas'/>
                                         </div>
                                         <div className='content'>
                                             <h5>Negativos</h5><br />
@@ -48,7 +48,7 @@ export default function Carousel(){
                                 <SwiperSlide>
                                     <div className='tarjeta'>
                                         <div className='imagen' >
-                                            <Image src={Img13} fill alt='Diseño de placas flexográficas'/>
+                                            <Image unoptimized src={Img13} fill alt='Diseño de placas flexográficas'/>
                                         </div>
                                         <div className='content'>
                                             <h5>Grabado</h5><br />
@@ -59,7 +59,7 @@ export default function Carousel(){
                                 <SwiperSlide>
                                     <div className='tarjeta'>
                                         <div className='imagen' >
-                                            <Image src={Img14} fill alt='Diseño de placas flexográficas'/>
+                                            <Image unoptimized src={Img14} fill alt='Diseño de placas flexográficas'/>
                                         </div>
                                         <div className='content'>
                                             <h5>Montaje</h5><br />
@@ -70,7 +70,7 @@ export default function Carousel(){
                                 <SwiperSlide>
                                     <div className='tarjeta'>
                                         <div className='imagen' >
-                                            <Image src={Img15} fill alt='Diseño de placas flexográficas'/>
+                                            <Image unoptimized src={Img15} fill alt='Diseño de placas flexográficas'/>
                                         </div>
                                         <div className='content'>
                                             <h5>Servicio</h5><br />

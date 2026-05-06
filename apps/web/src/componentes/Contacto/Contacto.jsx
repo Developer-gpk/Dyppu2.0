@@ -93,7 +93,7 @@ export default function Contacto(){
     return(
         <section className='block contact' id='contacto'>
             <div className='cover'>
-                <Image src={Img10} fill alt='Diseño de placas flexográficas'/>
+                <Image unoptimized src={Img10} fill alt='Diseño de placas flexográficas'/>
             </div>
             <div className='holder'>
                 <div className='container-fluid'>
@@ -167,7 +167,7 @@ export default function Contacto(){
                             <div className='more'>
                                 <div className='horario'>
                                     <div className='icono'>
-                                        <Image src={Reloj} alt='Diseño de placas flexográficas'/>
+                                        <Image unoptimized src={Reloj} alt='Diseño de placas flexográficas'/>
                                     </div>
                                     <div className='content'>
                                         <h6>Horario de atención:</h6>
@@ -176,7 +176,7 @@ export default function Contacto(){
                                 </div>
                                 <div className="direccion">
                                     <div className='icono'>
-                                        <Image src={Mapa} alt='Diseño de placas flexográficas'/>
+                                        <Image unoptimized src={Mapa} alt='Diseño de placas flexográficas'/>
                                     </div>
                                     <div className='content'>
                                         <p>Antiguo Camino a Manzanilla #68, Col. Joaquin Colombres, Puebla, Pue.</p>
@@ -185,7 +185,7 @@ export default function Contacto(){
 
                                 <div className="correo">
                                     <div className='icono'>
-                                        <Image src={InfoContacto} alt='Diseño de placas flexográficas'/>
+                                        <Image unoptimized src={InfoContacto} alt='Diseño de placas flexográficas'/>
                                     </div>
                                     <div className='content'>
                                         <p>Contacto:</p>
@@ -198,9 +198,9 @@ export default function Contacto(){
                         </div>
                         <div className="imagen" data-aos="fade-left">
                             <div className='img'>
-                                <Image src={Img9} fill alt='Diseño de placas flexográficas'/>
+                                <Image unoptimized src={Img9} fill alt='Diseño de placas flexográficas'/>
                             </div>
-                            <Image src={Figura3} className="figura3" alt='Diseño de placas flexográficas'/>
+                            <Image unoptimized src={Figura3} className="figura3" alt='Diseño de placas flexográficas'/>
                         </div>
                     </div>
                     <div className='end' data-aos="fade-up">
