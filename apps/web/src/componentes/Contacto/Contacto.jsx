@@ -146,14 +146,7 @@ export default function Contacto(){
                                                 </div>
                                                 <div className='form-control-custom'>
                                                     <label htmlFor="nombre">Placa para impresión en:</label>
-                                                    <Field className={`${props.errors.placa && props.touched.placa ? ("isError") : null}`} name="placa" as="select">
-                                                        <option defaultValue></option>
-                                                        <option value="Bolsas de plástico">Bolsas de plástico</option>
-                                                        <option value="Bolsas de papel">Bolsas de papel</option>
-                                                        <option value="Sacos de rafia">Sacos de rafia</option>
-                                                        <option value="Etiquetas">Etiquetas</option>
-                                                        <option value="Cajas de cartón">Cajas de cartón</option>
-                                                    </Field>
+                                                    <Field className={`${props.errors.placa && props.touched.placa ? ("isError") : null}`} type="text" name='placa' />
                                                 </div>
                                             </div>
                                             <div className='row-form'>
